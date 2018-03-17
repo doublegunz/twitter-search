@@ -1,0 +1,22 @@
+{
+    "name": "doublegunz/twitter-search", 
+    "description": "belajar bikin package buat search di twitter", 
+    "keywords": ["twitter search", "search"], // Keywords
+    "type": "package", 
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [{ 
+        "name": "Gun Gun Priatna", 
+        "email": "gungunpriatna02@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Twitter\\": "Twitter/"
+        }
+    },
+    "version": "1.0.0", 
+    "minimum-stability": "dev" 
+
+}
